@@ -1,0 +1,104 @@
+*{
+    /* box-sizing: border-box; */
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   background: rgb(219, 193, 193);
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap:  wrap;
+flex-direction: row;
+}
+.tab{
+    background-color: yellowgreen;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    /* align-items: center; */
+    /* size: 40px; */
+}
+.hom{
+    margin-top: 70px;
+    background: rgb(57, 175, 183);
+    border-radius: 10px;
+    height: 40px;
+}
+.hom:hover{
+cursor: pointer;
+color: azure;
+transform: scale(1.03);
+}
+.hed img{
+     margin-top: 9px;
+     width: 70px;
+     height: 80px;
+     padding-top: 2px;
+     margin-top: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+header{
+    height: 200px;
+}
+
+.card{
+    width: 400px;
+    border-radius: 15px;
+    margin:40px;
+    background: rgb(203, 72, 217);
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* height: 50px; */
+}
+  .card-img img
+{
+    width: 380px;
+    height: 190px;
+    border-radius: 5%;
+}
+.card-img{
+    height: 160px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+h2{
+    margin-top: 10%;
+    align-items: center;
+}
+h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 2px;
+}
+.card {
+    padding: 5px;
+}
+.card p{
+    margin-top: 5px;
+}
+.card:hover{
+    background-color: rgb(87, 179, 198);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+button{
+    margin-left: 50px;
+    cursor:pointer;
+    font-size: 20px;
+    border-radius: 1px;
+    size: 30px;
+}

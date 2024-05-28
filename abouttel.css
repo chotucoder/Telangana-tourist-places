@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: montserrat;
+    display: flow-root;
+    border: 3px solid;
+    flex-wrap: wrap;
+}
+nav{
+    background: #252f49;
+    height: 120px;
+    width: 100%;
+    /* display: flex; */
+    flex-wrap: wrap;
+
+    
+}
+
+img{
+    margin: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+label.logo{
+    color: white;
+    font-size: 45px;
+    line-height: 45px;
+    padding: 0 100px ;
+    font-weight: bold;
+     /* margin-top: 5px; */
+    /* margin-bottom: 5px;  */
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    
+
+}
+a.active,a:hover{
+    background:  #9e61e3;
+    transition: .5s;
+    /* background-color: olive;
+    /* border-radius: 10px; */
+} 
+.checkbtn{
+    font-size: 50px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+@media(max-width:925px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+nav ul li a{
+    font-size: 16px;
+}
+    }
+    @media(max-width:925px){
+        .checkbtn{
+            display: block;
+        }
+    
+    ul{
+        position: fixed;
+        width: 20%;
+        height: 100vh;
+        background: #1a6ec1;
+        top: 80px;
+        right: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 20px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+
+    }
+    a:hover,a.active{
+
+        background: none;
+        color: #121619;
+    }
+}
+#check:checked ~ ul{
+    left: 0;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.img2{
+    width: 100px;
+    height:300px;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 5px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+/* .tabe{
+    float: right;
+} */
+#ig1{
+    float: right;
+    margin-left: 5px;
+}
+
+
+.ttab .img1{
+   float: right;
+border: 1px solid black;
+/* margin: 30px; */
+font-size: 35px;
+flex-wrap: wrap;
+/* margin-bottom: 0px;
+gap: 0px; */
+
+}
+.his img{
+    float: left;
+    flex-wrap: wrap;
+}
+.agri img{
+    float: left;
+    flex-wrap: wrapz;
+}
+.tour img{
+    float: right;
+
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+.trans img{
+    float: right;
+}
+.arch img{
+    float: right;
+}
